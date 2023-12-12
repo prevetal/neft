@@ -1,0 +1,1192 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 248px;
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 56px;
+        height: 44px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        top: 24px;
+        right: 24px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item + .accordion_item
+    {
+        margin-top: 16px;
+    }
+
+
+    .accordion_item .head
+    {
+        padding: 20px 20px 20px 72px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .accordion_item .data
+    {
+        display: none;
+
+        padding: 4px 140px 24px 72px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        padding: 24px;
+    }
+
+
+
+    aside .logo .name
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+    aside .links > * + *
+    {
+        margin-top: 12px;
+    }
+
+    aside .links .btn
+    {
+        font-size: 14px;
+    }
+
+
+    aside .contacts .phone
+    {
+        font-style: 17px;
+    }
+
+
+    aside .contacts .time
+    {
+        font-size: 13px;
+
+        margin-top: 8px;
+    }
+
+
+    aside .contacts .callback_btn
+    {
+        margin-top: 8px;
+    }
+
+
+    aside .contacts .email
+    {
+        font-style: 15px;
+
+        margin-top: 16px;
+    }
+
+
+    aside .contacts .order_btn
+    {
+        margin-top: 20px;
+        padding: 14px 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .form .input
+    {
+        height: 52px;
+    }
+
+
+    .form .agree
+    {
+        padding-top: 8px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 16px;
+    }
+
+
+    .form .submit_btn
+    {
+        padding: 16px 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 42px;
+
+        width: 428px;
+    }
+
+
+    .first_section .percents
+    {
+        font-size: 80px;
+
+        margin-top: -4px;
+    }
+
+
+    .first_section .percents:before
+    {
+        bottom: 18px;
+
+        width: 320px;
+        height: 28px;
+
+        border-radius: 8px;
+    }
+
+
+    .first_section .percents + .row
+    {
+        margin-top: 28px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 348px;
+    }
+
+    .first_section .desc b:before
+    {
+        height: 5px;
+    }
+
+
+    .first_section .btns
+    {
+        margin-top: 26px;
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .first_section .btns > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .first_section .btns .order_btn,
+    .first_section .btns .consult_btn
+    {
+        padding: 16px;
+    }
+
+
+
+    .first_section .pluses
+    {
+        width: calc(100% - 396px);
+        padding: 28px;
+    }
+
+
+    .first_section .pluses .row
+    {
+        margin-bottom: -28px;
+        margin-left: -28px;
+    }
+
+    .first_section .pluses .row > *
+    {
+        width: calc(50% - 28px);
+        margin-bottom: 28px;
+        margin-left: 28px;
+    }
+
+
+    .first_section .pluses .item
+    {
+        font-size: 15px;
+    }
+
+
+    .first_section .pluses .item .icon + *
+    {
+        width: calc(100% - 52px);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        min-height: 200px;
+        padding: 40px 40px 40px 28px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .advantages .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .advantages .item .icon
+    {
+        top: -20px;
+        right: -20px;
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .advantages .item .icon img
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*-------------------
+        Manufacturers
+    -------------------*/
+    .manufacturers
+    {
+        padding: 60px 0;
+    }
+
+
+    .manufacturers .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .manufacturers .block_head .title
+    {
+        width: 284px;
+    }
+
+
+    .manufacturers .block_head .desc
+    {
+        font-size: 18px;
+
+        width: 284px;
+    }
+
+
+    .manufacturers .item .logo
+    {
+        height: 88px;
+    }
+
+
+    .manufacturers .item .name
+    {
+        margin-top: 16px;
+    }
+
+
+    .manufacturers .item .count
+    {
+        margin-top: 8px;
+    }
+
+    .manufacturers .block_head .count .val
+    {
+        font-size: 48px;
+
+        margin-bottom: 0;
+    }
+
+
+
+    /*-------------
+        Economy
+    -------------*/
+    .economy .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .economy .block_head .desc
+    {
+        font-size: 18px;
+
+        width: 456px;
+    }
+
+
+    .economy .row
+    {
+        margin-left: -68px;
+    }
+
+    .economy .row > *
+    {
+        margin-left: 68px;
+    }
+
+    .economy .row > *:nth-child(2n)
+    {
+        margin-top: 36px;
+    }
+
+
+    .economy .item .val
+    {
+        font-size: 18px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .economy .item .val span
+    {
+        font-size: 60px;
+        line-height: 76px;
+    }
+
+    .economy .item .val span:not(.medium):before
+    {
+        width: 76px;
+        height: 76px;
+    }
+
+
+    .economy .item .val span.medium
+    {
+        font-size: 36px;
+    }
+
+
+    .economy .bottom
+    {
+        margin-top: 40px;
+    }
+
+
+    .economy .btns
+    {
+        width: 400px;
+        max-width: calc(100% + 8px);
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .economy .btns > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .economy .btns .order_btn
+    {
+        padding: 16px;
+    }
+
+
+    .economy .btns .consult_btn span
+    {
+        padding: 14px;
+    }
+
+
+    .economy .exp
+    {
+        font-size: 15px;
+
+        width: 408px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc
+    {
+        padding: 60px 0;
+    }
+
+
+
+    .calc .data
+    {
+        width: 448px;
+    }
+
+
+    .calc .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .calc .block_head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 24px;
+    }
+
+
+    .calc .fields .label
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .calc .amount .input
+    {
+        height: 48px;
+        padding: 0 40px;
+    }
+
+
+    .calc .amount .btn.minus
+    {
+        left: 8px;
+    }
+
+    .calc .amount .btn.plus
+    {
+        right: 8px;
+    }
+
+
+    .calc .amount .btn .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .calc .btns
+    {
+        margin-top: 32px;
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .calc .btns > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .calc .btns .order_btn
+    {
+        padding: 16px;
+    }
+
+    .calc .btns .consult_btn span
+    {
+        padding: 14px;
+    }
+
+
+
+    .calc .info
+    {
+        top: -20px;
+        right: 40px;
+
+        width: 448px;
+        height: calc(100% + 40px);
+        padding: 40px 24px;
+    }
+
+
+    .calc .info img
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .calc .info .economy
+    {
+        padding: 0 8px;
+    }
+
+
+    .calc .info .economy .price
+    {
+        font-size: 40px;
+
+        margin-left: 12px;
+    }
+
+
+    .calc .info .exp
+    {
+        margin-top: 24px;
+        padding: 0 8px;
+    }
+
+    .calc .info .exp .icon
+    {
+        margin-top: 1px;
+    }
+
+
+
+    /*-----------------
+        Hidden fees
+    -----------------*/
+    .hidden_fees
+    {
+        padding: 60px 0;
+    }
+
+
+    .hidden_fees .sub_title
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .hidden_fees .items
+    {
+        width: calc(100% - 280px);
+    }
+
+
+    .hidden_fees .btns
+    {
+        width: 216px;
+        margin-right: 0;
+    }
+
+
+    .hidden_fees .btns .order_btn
+    {
+        padding: 16px;
+    }
+
+
+    .hidden_fees .btns .consult_btn span
+    {
+        padding: 14px;
+    }
+
+
+
+    /*---------------
+        Fuel card
+    ---------------*/
+    .fuel_card .items
+    {
+        width: 300px;
+    }
+
+    .fuel_card .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .fuel_card .item
+    {
+        padding: 24px;
+    }
+
+
+    .fuel_card .item .val
+    {
+        font-size: 48px;
+    }
+
+
+    .fuel_card .map_link
+    {
+        left: 400px;
+    }
+
+    .fuel_card .map_link .icon
+    {
+        margin-right: 16px;
+    }
+
+
+    .fuel_card .map
+    {
+        top: -272px;
+        left: 360px;
+    }
+
+
+
+    /*-------------------
+        Under control
+    -------------------*/
+    .under_control
+    {
+        padding: 60px 0;
+    }
+
+
+    .under_control .data
+    {
+        width: 520px;
+    }
+
+
+    .under_control .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .under_control .items
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .under_control .items > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .under_control .item .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .under_control .item span
+    {
+        width: calc(100% - 36px);
+    }
+
+
+    .under_control .bottom
+    {
+        margin-top: 40px;
+    }
+
+
+    .under_control .btns
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .under_control .btns > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .under_control .btns .order_btn
+    {
+        padding: 16px 32px;
+    }
+
+
+    .under_control .apps
+    {
+        margin-left: auto;
+    }
+
+    .under_control .apps > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*---------------------
+        complete system
+    ---------------------*/
+    .complete_system .col
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .complete_system .item .info
+    {
+        padding: 24px;
+    }
+
+
+    .complete_system .item .name
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .complete_system .item ul li
+    {
+        padding-left: 24px;
+    }
+
+
+    .complete_system .item ul li + li
+    {
+        margin-top: 12px;
+    }
+
+    .complete_system .item ul li:before
+    {
+        width: 8px;
+        height: 8px;
+    }
+
+
+
+    /*-------------------------
+        Additional features
+    -------------------------*/
+    .additional_features .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .additional_features .block_head .title
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .additional_features .block_head .desc
+    {
+        font-size: 18px;
+
+        width: calc(50% - 16px);
+    }
+
+
+    .additional_features .item .val span
+    {
+        font-size: 48px;
+    }
+
+
+    .additional_features .item .label
+    {
+        padding-right: 48px;
+    }
+
+
+    .additional_features .btns
+    {
+        width: 400px;
+        max-width: calc(100% + 8px);
+        margin-top: 48px;
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .additional_features .btns > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .additional_features .btns .order_btn
+    {
+        padding: 16px;
+    }
+
+    .additional_features .btns .consult_btn span
+    {
+        padding: 14px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .order_block .data
+    {
+        width: 408px;
+    }
+
+
+    .order_block .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .order_block .step + .step
+    {
+        margin-top: 32px;
+    }
+
+
+    .order_block .step .number
+    {
+        font-size: 68px;
+
+        width: 72px;
+    }
+
+    .order_block .step .number + *
+    {
+        width: calc(100% - 96px);
+    }
+
+
+    .order_block .step .name
+    {
+        font-size: 22px;
+    }
+
+
+    .order_block .step .desc
+    {
+        font-size: 15px;
+
+        margin-top: 12px;
+    }
+
+
+
+    .order_block .form
+    {
+        width: 480px;
+        padding: 40px;
+    }
+
+
+    .order_block .form .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper-slide
+    {
+        width: 220px;
+    }
+
+
+    .clients .item
+    {
+        padding: 12px 16px 16px;
+    }
+
+
+    .clients .item .logo
+    {
+        height: 80px;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases
+    {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    .cases .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .cases .swiper-button-prev
+    {
+        left: -282px;
+    }
+
+    .cases .swiper-button-next
+    {
+        left: -226px;
+    }
+
+
+    .cases .swiper .data
+    {
+        padding: 40px;
+    }
+
+
+    .cases .swiper .logo
+    {
+        width: 148px;
+    }
+
+    .cases .swiper .logo + *
+    {
+        width: calc(100% - 200px);
+    }
+
+
+    .cases .swiper .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .cases .swiper .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 12px;
+    }
+
+
+    .cases .swiper .bottom
+    {
+        padding: 19px 40px 20px;
+    }
+
+    .cases .swiper .bottom .val b
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 320px;
+        padding-bottom: 52px;
+    }
+
+
+    .contacts_info .data .item + .item
+    {
+        margin-top: 28px;
+    }
+
+
+    .contacts_info .data .metro
+    {
+        margin-top: 12px;
+    }
+
+
+    .contacts_info .data .phone
+    {
+        font-size: 20px;
+    }
+
+
+    .contacts_info .data .email
+    {
+        margin-top: 8px;
+    }
+
+
+    .contacts_info .btn
+    {
+        margin-top: 28px;
+        padding: 16px 32px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 300px);
+        height: 400px;
+        margin-right: -40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 24px 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .form
+    {
+        width: 524px;
+        padding: 40px;
+    }
+
+
+    .modal .form .title
+    {
+        font-size: 24px;
+    }
+
+
+    .modal .form .title img
+    {
+        width: 100px;
+    }
+
+
+    .modal .form .title span
+    {
+        width: calc(100% - 112px);
+    }
+
+
+
+    .modal .data
+    {
+        width: calc(100% - 524px);
+        padding: 40px;
+    }
+
+
+    .modal .data .title
+    {
+        font-size: 24px;
+
+        width: 100%;
+        margin-bottom: 32px;
+        padding-right: 24px;
+    }
+
+
+    .modal .data .sub_title
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+    }
+}

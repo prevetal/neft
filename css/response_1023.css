@@ -1,0 +1,184 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    *
+    {
+        scroll-margin-top: 81px;
+    }
+
+
+    .content_flex
+    {
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        z-index: 101;
+        right: 100%;
+        left: auto;
+
+        padding-top: 80px;
+
+        transition: transform .3s linear;
+
+        background: var(--bg);
+    }
+
+    aside.show
+    {
+        transform: translateX(100%);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 100px;
+    }
+
+
+
+    /*-------------------
+        Manufacturers
+    -------------------*/
+    .manufacturers
+    {
+        scroll-margin-top: 32px;
+    }
+
+
+
+    /*-------------------
+        Under control
+    -------------------*/
+    .under_control
+    {
+        scroll-margin-top: 32px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        scroll-margin-top: 32px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc
+    {
+        scroll-margin-top: 32px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases
+    {
+        scroll-margin-top: 32px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 500px;
+    }
+
+
+
+    .modal .form
+    {
+        width: 100%;
+    }
+
+
+    .modal .form .title
+    {
+        font-size: 20px;
+    }
+
+
+    .modal .form .title img
+    {
+        width: 88px;
+    }
+
+
+    .modal .form .title span
+    {
+        width: calc(100% - 100px);
+    }
+
+
+
+    .modal .data
+    {
+        width: 100%;
+        padding: 40px;
+    }
+
+
+    .modal .data .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 24px;
+        padding: 0;
+    }
+
+
+    .modal .data .sub_title
+    {
+        font-size: 17px;
+    }
+
+
+    .modal .data .items > * + *
+    {
+        margin-top: 8px;
+    }
+}

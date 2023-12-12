@@ -1,0 +1,544 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .form .input
+    {
+        height: 52px;
+    }
+
+
+    .form .agree
+    {
+        padding-top: 8px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 16px;
+    }
+
+
+    .form .submit_btn
+    {
+        padding: 16px 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 38px;
+
+        width: 100%;
+    }
+
+
+    .first_section .percents
+    {
+        font-size: 72px;
+    }
+
+
+    .first_section .percents:before
+    {
+        bottom: 16px;
+
+        width: 280px;
+        height: 26px;
+    }
+
+
+
+    .first_section .pluses
+    {
+        width: 100%;
+        margin-top: 24px;
+        padding: 24px;
+    }
+
+
+    .first_section .pluses .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .first_section .pluses .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .advantages .item
+    {
+        min-height: 180px;
+    }
+
+
+    .advantages .item .name
+    {
+        padding-right: 40px;
+    }
+
+
+
+    /*-------------------
+        Manufacturers
+    -------------------*/
+    .manufacturers .block_head .title
+    {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-------------
+        Economy
+    -------------*/
+    .economy .block_head .desc
+    {
+        width: 360px;
+    }
+
+
+    .economy .row
+    {
+        justify-content: space-between;
+
+        margin-left: 0;
+    }
+
+    .economy .row > *
+    {
+        margin-left: 0;
+    }
+
+
+    .economy .item .val
+    {
+        font-size: 17px;
+    }
+
+
+    .economy .item .val span
+    {
+        font-size: 56px;
+        line-height: 72px;
+    }
+
+    .economy .item .val span:not(.medium):before
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+
+    .economy .item .val span.medium
+    {
+        font-size: 32px;
+    }
+
+
+    .economy .item .name
+    {
+        margin-top: 14px;
+    }
+
+
+    .economy .btns
+    {
+        width: 360px;
+    }
+
+
+    .economy .exp
+    {
+        font-size: 14px;
+
+        width: calc(100% - 400px);
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc .data
+    {
+        width: 100%;
+    }
+
+
+    .calc .block_head .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    .calc .info
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------------
+        Hidden fees
+    -----------------*/
+    .hidden_fees .items
+    {
+        width: 100%;
+    }
+
+
+    .hidden_fees .btns
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        width: 400px;
+        margin-top: 40px;
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .hidden_fees .btns > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    .hidden_fees .btns .order_btn,
+    .hidden_fees .btns .consult_btn
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+
+    /*---------------
+        Fuel card
+    ---------------*/
+    .fuel_card .items
+    {
+        width: 280px;
+    }
+
+
+    .fuel_card .item
+    {
+        padding: 20px 24px;
+    }
+
+
+    .fuel_card .item .val
+    {
+        font-size: 40px;
+    }
+
+
+    .fuel_card .map_link
+    {
+        left: 340px;
+    }
+
+
+    .fuel_card .map
+    {
+        top: -320px;
+        left: 320px;
+    }
+
+
+
+    /*-------------------
+        Under control
+    -------------------*/
+    .under_control .data
+    {
+        width: 512px;
+    }
+
+
+
+    /*---------------------
+        complete system
+    ---------------------*/
+    .complete_system .col
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .complete_system .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------------------
+        Additional features
+    -------------------------*/
+    .additional_features .block_head .title
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .additional_features .block_head .desc
+    {
+        font-size: 17px;
+
+        width: calc(50% - 12px);
+    }
+
+
+    .additional_features .item .val span
+    {
+        font-size: 40px;
+    }
+
+
+    .additional_features .item .label
+    {
+        margin-bottom: 6px;
+        margin-left: 8px;
+        padding-top: 12px;
+        padding-right: 0;
+    }
+
+
+    .additional_features .btns
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .data
+    {
+        width: 340px;
+    }
+
+
+    .order_block .step .number
+    {
+        font-size: 58px;
+
+        width: 62px;
+    }
+
+    .order_block .step .number + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .order_block .step .name
+    {
+        font-size: 20px;
+    }
+
+
+    .order_block .step .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    .order_block .form
+    {
+        width: calc(100% - 360px);
+        padding: 28px;
+    }
+
+
+    .order_block .form .title
+    {
+        font-size: 20px;
+    }
+
+
+    .order_block .form .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .item .logo
+    {
+        height: 72px;
+        margin-bottom: 8px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .cases .swiper-button-prev,
+    .cases .swiper-button-next
+    {
+        top: 0;
+        bottom: 0;
+
+        margin-top: auto;
+        margin-bottom: auto;
+
+        border-radius: 8px;
+    }
+
+
+    .cases .swiper-button-prev
+    {
+        left: -20px;
+    }
+
+    .cases .swiper-button-next
+    {
+        right: -20px;
+        left: auto;
+    }
+
+
+    .cases .swiper .bottom .val b
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 296px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 296px);
+        height: 380px;
+        margin-right: -24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .form .title
+    {
+        font-size: 22px;
+    }
+
+
+    .modal .data .title
+    {
+        font-size: 22px;
+    }
+}

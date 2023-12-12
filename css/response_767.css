@@ -1,0 +1,623 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 30px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 16px 16px 16px 60px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 20px 20px 60px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 96px 0 48px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+    .first_section .percents
+    {
+        font-size: 60px;
+    }
+
+
+    .first_section .percents:before
+    {
+        bottom: 14px;
+
+        width: 228px;
+        height: 22px;
+    }
+
+
+    .first_section .percents + .row
+    {
+        margin-top: 20px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        width: 304px;
+    }
+
+    .first_section .desc b:before
+    {
+        bottom: 5px;
+
+        height: 4px;
+    }
+
+
+    .first_section .btns
+    {
+        margin-top: 24px;
+    }
+
+
+
+    .first_section .pluses .item .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+    .first_section .pluses .item .icon + *
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .first_section .pluses .item
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item
+    {
+        min-height: 156px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 96px;
+        height: 96px;
+    }
+
+    .advantages .item .icon img
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    /*-------------------
+        Manufacturers
+    -------------------*/
+    .manufacturers
+    {
+        padding: 48px 0;
+    }
+
+
+    .manufacturers .block_head .title
+    {
+        margin-bottom: 4px;
+    }
+
+
+    .manufacturers .block_head .desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+    .manufacturers .block_head .desc br
+    {
+        display: none;
+    }
+
+
+    .manufacturers .block_head .count
+    {
+        margin-top: 12px;
+    }
+
+    .manufacturers .block_head .count .val
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*-------------
+        Economy
+    -------------*/
+    .economy .block_head .desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .economy .row
+    {
+        justify-content: flex-start;
+
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .economy .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .economy .item .val
+    {
+        font-size: 16px;
+    }
+
+
+    .economy .item .val span
+    {
+        font-size: 52px;
+        line-height: 68px;
+    }
+
+    .economy .item .val span:not(.medium):before
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .economy .btns
+    {
+        width: calc(100% + 8px);
+    }
+
+
+    .economy .exp
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc
+    {
+        padding: 48px 0;
+    }
+
+
+    .calc .block_head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .calc .info .economy .price
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*-----------------
+        Hidden fees
+    -----------------*/
+    .hidden_fees
+    {
+        padding: 48px 0;
+    }
+
+
+    .hidden_fees .sub_title
+    {
+        font-size: 17px;
+    }
+
+
+    .hidden_fees .items
+    {
+        margin-bottom: -8px;
+        margin-left: 0;
+    }
+
+    .hidden_fees .items > *
+    {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+
+
+    .hidden_fees .btns
+    {
+        width: calc(100% + 8px);
+        margin-top: 28px;
+    }
+
+
+
+    /*---------------
+        Fuel card
+    ---------------*/
+    .fuel_card .cont
+    {
+        position: static;
+    }
+
+
+    .fuel_card .items
+    {
+        width: 100%;
+    }
+
+
+    .fuel_card .item .val
+    {
+        font-size: 36px;
+    }
+
+
+    .fuel_card .map_link
+    {
+        bottom: 48px;
+        left: 50%;
+
+        flex-wrap: nowrap;
+
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+
+    .fuel_card .map
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        overflow: auto;
+
+        margin-top: 24px;
+        margin-right: -24px;
+        margin-bottom: -48px;
+        margin-left: -24px;
+        padding: 0 24px 100px;
+    }
+
+    .fuel_card .map svg
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    /*-------------------
+        Under control
+    -------------------*/
+    .under_control
+    {
+        padding: 48px 0;
+    }
+
+
+    .under_control .apps
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------------
+        complete system
+    ---------------------*/
+    .complete_system .col
+    {
+        width: 100%;
+    }
+
+    .complete_system .col + .col
+    {
+        margin-top: 24px;
+    }
+
+
+    .complete_system .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .complete_system .item .name
+    {
+        font-size: 19px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------------
+        Additional features
+    -------------------------*/
+    .additional_features .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .additional_features .block_head .title
+    {
+        width: 100%;
+    }
+
+
+    .additional_features .block_head .desc
+    {
+        font-size: 14px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .additional_features .row
+    {
+        margin-bottom: -24px;
+    }
+
+    .additional_features .item
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .additional_features .btns
+    {
+        width: calc(100% + 8px);
+        margin-top: 32px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        padding: 48px 0;
+    }
+
+
+    .order_block .data
+    {
+        width: 100%;
+    }
+
+
+    .order_block .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .order_block .form
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding: 40px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+
+    .cases .swiper .data
+    {
+        padding: 28px;
+    }
+
+
+    .cases .swiper .logo + *
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .cases .swiper .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+    .cases .swiper .bottom
+    {
+        padding: 19px 28px 16px;
+    }
+
+
+    .cases .swiper .bottom .label
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .cases .swiper .bottom .val b
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% + 48px);
+        height: 360px;
+        margin-left: -24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont > *
+    {
+        width: 100%;
+    }
+
+    footer .cont > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .form
+    {
+        padding: 32px;
+    }
+
+
+
+    .modal .data
+    {
+        padding: 32px;
+    }
+}

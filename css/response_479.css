@@ -1,0 +1,303 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        top: 16px;
+        right: 16px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 20px 20px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .contacts .phone
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .percents
+    {
+        font-size: 56px;
+    }
+
+    .first_section .percents:before
+    {
+        bottom: 13px;
+
+        width: 216px;
+        height: 20px;
+    }
+
+
+    .first_section .desc
+    {
+        width: 260px;
+    }
+
+
+    .first_section .btns
+    {
+        width: calc(100% + 8px);
+    }
+
+
+
+    .first_section .pluses .row
+    {
+        margin-left: 0;
+    }
+
+    .first_section .pluses .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .first_section .pluses .item br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        min-height: 0;
+        padding: 31px 32px 32px 24px;
+    }
+
+    .advantages .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc .fields > *
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .calc .btns
+    {
+        margin-left: 0;
+    }
+
+    .calc .btns > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .calc .info .economy
+    {
+        padding: 0;
+    }
+
+    .calc .info .economy .price
+    {
+        font-size: 32px;
+    }
+
+
+    .calc .info .exp
+    {
+        padding: 0;
+    }
+
+
+
+    /*---------------
+        Fuel card
+    ---------------*/
+    .fuel_card .item .val
+    {
+        font-size: 32px;
+    }
+
+
+    .fuel_card .map_link
+    {
+        font-size: 13px;
+
+        bottom: 40px;
+    }
+
+
+    .fuel_card .img
+    {
+        width: 900px;
+    }
+
+
+
+    /*-------------------
+        Under control
+    -------------------*/
+    .under_control .items
+    {
+        margin-left: 0;
+    }
+
+    .under_control .items > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------------
+        Additional features
+    -------------------------*/
+    .additional_features .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .additional_features .item
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .step .name
+    {
+        font-size: 19px;
+    }
+
+
+    .order_block .form
+    {
+        padding: 28px 24px;
+    }
+
+
+    .order_block .form .title
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper .desc
+    {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .form
+    {
+        padding: 40px 28px;
+    }
+
+
+    .modal .form .title
+    {
+        font-size: 19px;
+    }
+
+
+
+    .modal .data
+    {
+        padding: 40px 28px;
+    }
+
+
+    .modal .data .title
+    {
+        font-size: 19px;
+    }
+
+
+    .modal .data .sub_title
+    {
+        font-size: 16px;
+    }
+}
