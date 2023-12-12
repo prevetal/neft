@@ -2551,6 +2551,7 @@ aside .contacts .order_btn:hover
 .fuel_card .map_link
 {
     position: absolute;
+    z-index: 5;
     bottom: 4px;
     left: 456px;
 
@@ -2559,6 +2560,8 @@ aside .contacts .order_btn:hover
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+    pointer-events: auto;
 
     color: #2b2b2b;
 }
